@@ -1,20 +1,15 @@
-import React  from 'react'
+import { View, Text, SafeAreaView, ScrollView } from 'react-native'
+import React from 'react'
 
-import {
-  View,
-  Text,
-  SafeAreaView
-} from 'react-native'
-function App()
-{
-  return(
+const App = () => {
+  return (
     <SafeAreaView>
-    <View>
-    <Text>hello world!</Text>
-    <Text>hello world!</Text>
-    <Text>hello world!</Text>
-    </View>
-  </SafeAreaView>
+      <ScrollView>   
+      <Text>App</Text>
+      </ScrollView>
+    </SafeAreaView>
+    
   )
 }
-export default App;
+
+export default App
