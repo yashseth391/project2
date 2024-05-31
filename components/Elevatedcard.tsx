@@ -4,7 +4,7 @@ import React from 'react'
 const elevatedcard = () => {
   return (
     <View >
-      <Text style={styles.heading}>elevatedcard</Text>
+      <Text style={styles.heading}>Elevatedcard</Text>
       <ScrollView  horizontal={true} style={styles.container}>
         <View>
             <Text style={[styles.elevated,styles.card]}>tap</Text>
@@ -55,6 +55,6 @@ const styles = StyleSheet.create({
       },
       elevated:{
         backgroundColor:'silver'
-        ,elevation:100,
+        
       },
 })
